@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparador de noticias</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <header>
+    
+    </header>
+    <main>
+
+
+        <section class="saludo">
+
+            <figure>
+                <img src="/Recurso 1.webp" alt="">
+            </figure>
+
+            <h1>Comparador de <br> Noticias</h1>
+
+            <div class="intro">
+                <p>
+                    distintas fuentes, mismos hechos <br> y una opinión generada con <br> inteligencia artificial.
+                </p>
+            </div>
+            
+
+        </section>
+
+        
+
+        <section class="carrusel-container" id="carrusel-container">
+
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://www.infobae.com/new-resizer/cKSc-nXzUPIEaNGjR7eCKC3Q0RA=/992x606/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/EPKQITVT3RDPTPNFAUDLXLBRFI.jpg" alt="Imagen de noticia 1">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            Petro defiende su presupuesto con un artículo de la constitución nacional
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            Art 348. Constitución Nacional. Si el Congreso no expidiere el presupuesto, regirá el presentado por el gobierno. Cómo será de seria la oposición que rechazaron la Ley de Financiamiento sin siquiera ser presentada y hasta congresistas firmaron una proposición negándola sin conocer el texto. ¡Qué calidad! Hoy que se conoce el texto quiero ver un solo empresario en Colombia que se oponga a que le rebajen renta del 35% al 30 o si es mediano al 27%. La LDF presentada solo graba a 1.000 super ricos que ganan más de 1.500 millones al año.
+                        </p>
+                        <a href="https://www.infobae.com/colombia/2024/09/10/efrain-cepeda-se-refirio-al-presupuesto-general-de-la-nacion-para-el-2025-expedir-via-decreto-seria-el-peor-de-los-escenarios/" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://www.infobae.com/new-resizer/HIx4-wyHMfSFYJ23FryffvjGMGE=/992x606/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/OM63ATIRCREP3O4I2MN3UAK6OI.jpg" alt="Imagen de noticia 2">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            El Gobierno propone una reforma tributaria para recoger 12 billones de pesos con aumentos al impuesto a la renta de los superricos y al IVA a las apuestas en línea
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            El presidente del Senado, Efraín Cepeda, criticó la idea de Gustavo Petro de expedir el presupuesto de 2025 por decreto si el Congreso lo rechaza, calificando esta medida como un mal precedente por la falta de financiamiento del presupuesto. Según Cepeda, no es sostenible repetir lo que ocurrió en 2024.
+                            <br><br>
+                            Por su parte, Gustavo Petro sostuvo que, si el Congreso rechaza el presupuesto, recortará el gasto público sin afectar a los más pobres, y lo financiará con nuevos impuestos al petróleo, carbón y apuestas en línea, manteniendo el enfoque en proteger el gasto social.
+                        </p>
+                        <a href="https://www.infobae.com/colombia/2024/09/10/efrain-cepeda-se-refirio-al-presupuesto-general-de-la-nacion-para-el-2025-expedir-via-decreto-seria-el-peor-de-los-escenarios/" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            <section class="comentario">
+                <h4 class="title-coment">
+                    Defensa de Petro del presupuesto vs. Críticas del Congreso
+                </h4>
+                <details>
+                    <summary>Ver comparación</summary>
+                    <p class="content-comment">
+                        "Petro defiende su presupuesto con un artículo de la constitución nacional"
+                        <br><br>
+                        Sesgo: Esta noticia presenta una postura favorable hacia Gustavo Petro, quien defiende su capacidad de expedir el presupuesto basado en el Artículo 348 de la Constitución. Petro critica la oposición por rechazar la Ley de Financiamiento sin conocer el texto, y destaca los beneficios del presupuesto, como la reducción de impuestos para las empresas medianas y grandes, mientras solo grava a los superricos. La noticia apoya la narrativa del presidente, resaltando los beneficios de su propuesta y minimizando las críticas.
+                        <br><br>
+                        "El Gobierno propone una reforma tributaria para recoger 12 billones de pesos con aumentos al impuesto a la renta de los superricos y al IVA a las apuestas en línea"
+                        <br><br>
+                        Sesgo: Esta noticia refleja las críticas del Congreso, representadas por Efraín Cepeda, quien se opone a la posibilidad de que Petro expida el presupuesto por decreto si el Congreso lo rechaza. Cepeda advierte que esto sería un mal precedente debido a la falta de financiamiento adecuado. El artículo se centra en las preocupaciones sobre el impacto de nuevos impuestos al petróleo, carbón y apuestas en línea, resaltando el temor de que el presupuesto no sea sostenible si se expide sin aprobación legislativa.
+                        <br><br>
+                        Comparación: La primera noticia apoya la defensa de Petro al destacar su capacidad constitucional para expedir el presupuesto y los beneficios fiscales propuestos, minimizando la oposición. La segunda noticia critica la posibilidad de que Petro expida el presupuesto por decreto, subrayando los riesgos financieros y los efectos negativos de los nuevos impuestos. Mientras una respalda la legalidad y los beneficios del presupuesto de Petro, la otra se centra en las críticas del Congreso y los posibles problemas de sostenibilidad. Ambos artículos reflejan sesgos: uno en favor de la postura del gobierno y otro resaltando las preocupaciones legislativas.
+                    </p>
+                </details>
+            </section>
+
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://img.lalr.co/cms/2024/09/10101703/FOTO-LR-2024-09-10T101656.182.png?size=sm" alt="Imagen de noticia 1">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            Gobierno Nacional radicó la reforma tributaria con la que busca recoger $12 billones
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>Ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            El ministro de Hacienda, Ricardo Bonilla, presentó la segunda reforma tributaria del gobierno de Gustavo Petro, con la meta de recaudar $12 billones para financiar el Presupuesto General de 2025 y estimular la reactivación económica. La ley se enfoca en tres ejes: incentivos para energías renovables, nuevas fuentes de ingresos y la modificación de la regla fiscal para incorporar una 'regla fiscal verde'. También se proponen impuestos para empresas de apuestas digitales y vehículos híbridos, lo que podría generar $3 billones.
+                            <br><br>
+                            El proyecto incluye que el Fondo Nacional del Ahorro otorgue créditos para vivienda y se ajusten impuestos a sectores específicos como el de juegos de azar. Además, el ministro Bonilla destacó que la reforma busca traer la implementación de la regla fiscal de 2026 a 2025. En el Congreso se anticipa un intenso debate sobre el presupuesto de 2025 y las posibles modificaciones a la reforma, mientras el presidente Gustavo Petro insiste en la necesidad de aprobarla para reactivar la economía.
+                        </p>
+                        <a href="https://www.larepublica.co/especiales/reforma-tributaria-2024/reforma-tributaria-2025-gobierno-nacional-radico-la-reforma-tributaria-con-la-que-busca-recoger-12-billones-3949323" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://imagenes.elpais.com/resizer/v2/NUEES7F7GJH2HBNVNFJVZLRAMI.jpg?auth=4e5ee39e2ca64a2c407a41c25dd828c87f7fb5a076c1f4122b808d6f7806c7f9&width=980" alt="Imagen de noticia 2">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            El Gobierno propone una reforma tributaria para recoger 12 billones de pesos con aumentos al impuesto a la renta de los superricos y al IVA a las apuestas en línea
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>Ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            El gobierno de Gustavo Petro presentó una reforma tributaria para recaudar $12 billones y financiar el presupuesto de 2025. Entre las medidas más destacadas se encuentra la eliminación del Régimen Simple de Tributación, un sistema que fomentaba la formalización empresarial. Además, se proponen nuevos impuestos al carbono, vehículos híbridos y las apuestas en línea, junto con un aumento en la tarifa de renta para los superricos, que pasaría del 39% al 41%.
+                            <br><br>
+                            El proyecto también propone modificar la regla fiscal, excluyendo del tope de déficit las inversiones sostenibles. Esta modificación ha sido criticada por expertos, como Brandon Espinel, quien considera que la eliminación del Régimen Simple afectará negativamente a los pequeños y medianos empresarios. El sector de apuestas, que ha crecido significativamente en Colombia, sería gravado con IVA, generando un incremento inmediato en el recaudo.
+                            <br><br>
+                            La reforma busca equilibrar las cuentas del gobierno y reducir la desigualdad, aunque enfrenta críticas por la complejidad en las tarifas empresariales y la posible inconstitucionalidad del impuesto a los superricos. Algunos analistas temen que las altas tasas provoquen una fuga de capitales o un cambio en la residencia fiscal de los contribuyentes más ricos.
+                        </p>
+                        <a href="https://elpais.com/america-colombia/2024-09-10/el-gobierno-propone-una-reforma-tributaria-para-recoger-12-billones-de-pesos-con-aumentos-al-impuesto-a-la-renta-de-los-superricos-y-al-iva-a-las-apuestas-en-linea.html" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            <section class="comentario">
+                <h4 class="title-coment">
+                    Reforma Tributaria del Gobierno de Petro
+                </h4>
+                <details>
+                    <summary>Ver comparación</summary>
+                    <p class="content-comment">
+                        "Gobierno Nacional radicó la reforma tributaria con la que busca recoger $12 billones"
+                        <br><br>
+                        Sesgo: Esta noticia se enfoca en los objetivos del gobierno, presentando la reforma tributaria como una herramienta para recaudar $12 billones y financiar el Presupuesto General de 2025. Resalta los incentivos para energías renovables, los nuevos impuestos y la modificación de la regla fiscal, con un tono positivo sobre el impacto de estas medidas en la reactivación económica. Aunque menciona el debate en el Congreso, el artículo subraya la importancia de la reforma para el crecimiento económico según el gobierno.
+                        <br><br>
+                        "El Gobierno propone una reforma tributaria para recoger 12 billones de pesos con aumentos al impuesto a la renta de los superricos y al IVA a las apuestas en línea"
+                        <br><br>
+                        Sesgo: Esta noticia pone más énfasis en las críticas a la reforma, destacando aspectos controvertidos como el aumento en el impuesto a los superricos y la eliminación del Régimen Simple de Tributación, lo que afectaría a las pequeñas y medianas empresas. Resalta la preocupación de expertos sobre la complejidad de las nuevas tarifas y el posible impacto negativo en la formalización empresarial. También menciona el riesgo de fuga de capitales y cambio de residencia fiscal como consecuencia de las medidas.
+                        <br><br>
+                        Comparación: La primera noticia presenta la reforma tributaria desde la perspectiva del gobierno, destacando su importancia para la reactivación económica y el presupuesto de 2025. En cambio, la segunda noticia es más crítica, poniendo en relieve los riesgos y las críticas de expertos, como el impacto en las PYMES y la posible inconstitucionalidad del impuesto a los superricos. Mientras una subraya los beneficios y la necesidad de la reforma, la otra resalta las preocupaciones y posibles efectos negativos. Ambos artículos muestran sesgos: uno a favor de las metas del gobierno y otro más inclinado a los desafíos que enfrentará la reforma.
+                    </p>
+                </details>
+            </section>
+
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://www.eleconomista.com.mx/__export/1725564355534/sites/eleconomista/img/2024/09/02/la-fiscalixa-de-venezuela-solicita-arresto-del-excandidato-de-oposicioxn-edmundo-gonzaxlez.jpg_1896087726.jpg" alt="Imagen de noticia 1">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            Decidí salir pensando en Venezuela”: Edmundo González rompe el silencio desde Madrid
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>Ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            El excandidato presidencial venezolano Edmundo González Urrutia rompió el silencio tras salir de Venezuela para buscar asilo en España. En un comunicado publicado el 9 de septiembre, explicó que su decisión se basó en su deseo de proteger a su familia y en la necesidad de construir una nueva etapa para el país. González subrayó que su salida no responde a intereses personales, sino a su compromiso con la democracia y la libertad en Venezuela.
+                            <br><br>
+                            La salida de González se produjo en medio de una crisis política por las controvertidas elecciones presidenciales del 28 de julio, en las que se considera que ganó con alrededor del 70% de los votos, aunque el gobierno de Nicolás Maduro y el Consejo Nacional Electoral declararon lo contrario. Las autoridades venezolanas emitieron una orden de arresto contra él por acusaciones de conspiración y "usurpación de funciones", mientras que la oposición asegura que las actas electorales que muestran su victoria son auténticas y fueron recopiladas en los centros de votación.
+                            <br><br>
+                            El asilo de González ha generado reacciones internacionales. Washington y la Unión Europea expresaron su apoyo a González y criticaron el deterioro de la democracia en Venezuela. Otros países de la región, como Colombia y Ecuador, también han manifestado su preocupación por la persecución política en Venezuela, mientras que Madrid negó estar involucrado en una negociación política con el gobierno de Maduro para brindar refugio al opositor.
+                        </p>
+                        <a href="https://www.france24.com/es/am%C3%A9rica-latina/20240909-decid%C3%AD-salir-pensando-en-venezuela-edmundo-gonz%C3%A1lez-rompe-el-silencio-desde-madrid" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://d2yoo3qu6vrk5d.cloudfront.net/pulzo-lite/images-resized/PP3926771-s-o.webp" alt="Imagen de noticia 2">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            Se fue solito: cínica respuesta del régimen de Maduro ante exilio de Edmundo González
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>Ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            Diosdado Cabello, cercano aliado de Nicolás Maduro, respondió con sarcasmo al exilio del excandidato opositor Edmundo González Urrutia, afirmando que su salida hacia España fue voluntaria y tranquila. Según Cabello, González "se fue solito" junto con su esposa, en una declaración irónica durante una rueda de prensa. Esto ocurre mientras el régimen de Maduro continúa enfrentando críticas internacionales por la persecución política y la represión.
+                            <br><br>
+                            González había estado oculto desde el 30 de julio, refugiándose primero en la embajada de Países Bajos y luego en la de España. El gobierno venezolano lo acusa de varios delitos, incluyendo conspiración y usurpación de funciones, debido a la difusión de actas electorales que, según la oposición, demuestran su victoria en las elecciones. Un tribunal con competencia en terrorismo había emitido una orden de arresto contra él, y se le relaciona con protestas poselectorales que dejaron 27 muertos y miles de detenidos.
+                            <br><br>
+                            Mientras tanto, la fiscalía también ha abierto una investigación contra María Corina Machado, otra líder opositora, aunque hasta ahora no se ha emitido ninguna orden de captura en su contra. Maduro ha pedido cárcel tanto para González como para Machado, acusándolos de incitar la violencia en las manifestaciones tras las elecciones.
+                        </p>
+                        <a href="https://www.pulzo.com/mundo/nicolas-maduro-su-regimen-burlan-exilio-edmundo-gonzalez-PP3926771" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            <section class="comentario">
+                <h4 class="title-coment">
+                    Exilio de Edmundo González vs. Respuesta del régimen de Maduro
+                </h4>
+                <details>
+                    <summary>Ver comparación</summary>
+                    <p class="content-comment">
+                        "Decidí salir pensando en Venezuela”: Edmundo González rompe el silencio desde Madrid
+                        <br><br>
+                        Sesgo: La noticia presenta a González como víctima de persecución política, justificando su exilio por la represión del régimen de Maduro. Resalta su compromiso con la democracia y el apoyo internacional que recibe, mientras minimiza las acusaciones del gobierno venezolano sobre conspiración.
+                        <br><br>
+                        "Se fue solito: cínica respuesta del régimen de Maduro ante exilio de Edmundo González"
+                        <br><br>
+                        Sesgo: Esta noticia reproduce la versión del régimen de Maduro, ridiculizando a González y asegurando que su salida fue voluntaria. Da credibilidad a las acusaciones de conspiración y lo vincula con la violencia tras las elecciones, desestimando cualquier legitimidad de su exilio.
+                        <br><br>
+                        Comparación: La primera noticia apoya la narrativa de González como un luchador por la democracia, mientras que la segunda lo descalifica, ridiculizando su exilio y validando las acusaciones del régimen. Ambas noticias reflejan puntos de vista opuestos y sesgos claros, uno en favor de González y otro alineado con el régimen de Maduro.
+                    </p>
+                </details>
+            </section>
+
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://cnnespanol.cnn.com/wp-content/uploads/2024/08/gustavo-petro-GettyImages-2161005680-e1722526215587.jpg?quality=100&strip=info" alt="Imagen de noticia 1">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            2 años de Petro en el poder: muchas promesas de cambio, pocos resultados tangibles
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>Ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            Gustavo Petro, presidente de Colombia desde el 7 de agosto de 2022, ha cumplido dos años en el cargo. Petro llegó al poder con promesas de cambio y una agenda enfocada en la justicia social, pero la opinión pública está dividida sobre su gestión. Algunos ciudadanos, como Leonardo Jiménez, expresan decepción por no ver mejoras significativas y por problemas como el acceso a la salud. Otros, como Milena Rodríguez, creen que el gobierno ha avanzado en áreas como la educación y el empoderamiento juvenil.
+                            <br><br>
+                            El desempeño de Petro ha generado críticas por la falta de resultados tangibles en sus promesas, con algunos analistas, como Jaime Honorio González, sugiriendo que el presidente ha cumplido parcialmente con sus objetivos. El senador Iván Cepeda destaca avances en ciertos sectores económicos y sociales, a pesar de los desafíos.
+                            <br><br>
+                            Petro ha enfrentado varios escándalos de corrupción y ha pedido disculpas por los problemas dentro de su gobierno. La percepción ciudadana es negativa, con solo un 34,6% de aprobación según una encuesta reciente. Aunque algunos creen que una Asamblea Nacional Constituyente podría ser una posibilidad, otros la ven como improbable. La gestión de Petro también se ha caracterizado por su uso activo de redes sociales y un enfoque desafiante hacia sus adversarios.
+                            <br><br>
+                            El gobierno enfrenta retos significativos, incluyendo el orden público y las relaciones internacionales, especialmente con Venezuela. Los ciudadanos esperan que el presidente aborde los problemas internos con la misma atención que dedica a cuestiones internacionales.
+                        </p>
+                        <a href="https://cnnespanol.cnn.com/2024/08/07/petro-colombia-2-promesas-cambios-resultados-orix/" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://imagenes.elpais.com/resizer/v2/M2UU7ERVAHNFTW6TDU4BILBWME.jpg?auth=754afb93fe2f3ce87105d3447f48d48c79254e5a4503a2bea3e1b43417941297&width=1200" alt="Imagen de noticia 2">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            Una victoria histórica y dos derrotas marcan el segundo año de Petro en el Congreso
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            En el segundo año del mandato del presidente Gustavo Petro, se destacan tanto logros como fracasos en su agenda legislativa. Entre sus principales promesas de campaña estaban la reforma del sistema de salud, la mejora de las condiciones laborales, la garantía de educación como derecho fundamental y una pensión básica para adultos mayores pobres.
+                            <br><br>
+                            Logros: 
+                            <br>
+                            1. **Reforma Pensional**: La aprobación de la reforma pensional es el mayor cambio en el sistema de seguridad social colombiano en 30 años. Esta reforma busca aumentar la cobertura de jubilación del 25% al 75% y entrará en vigor en julio de 2025. Petro describió esta victoria como un avance significativo para los trabajadores de Colombia.
+                            <br>
+                            2. Reforma Laboral: La reforma laboral fue salvada a última hora, aunque aún requiere tres debates más antes de convertirse en ley. La reforma incluye aumentos en los derechos laborales, como la extensión de la jornada nocturna y el pago completo por trabajo en días de descanso obligatorio, así como la mejora en la licencia de paternidad y el contrato para campesinos.
+                            <br><br>
+                            Fracasos:
+                            <br>
+                            1. Reforma a la Salud: La reforma a la salud, que buscaba eliminar la intermediación de las EPS y canalizar los recursos directamente a hospitales, fue rechazada por la Comisión Séptima del Senado. Esta derrota se considera la más significativa del gobierno de Petro hasta ahora y ha llevado a una crisis en su gabinete.
+                            <br>
+                            2. Reforma Educativa: La reforma a la educación también fracasó. A pesar de haber tenido un acuerdo previo con la oposición, las modificaciones acordadas generaron rechazo entre los sindicatos de maestros, lo que llevó al hundimiento del proyecto en el Congreso.
+                            <br><br>
+                            El segundo año de Petro también estuvo marcado por el escándalo de corrupción en la Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD), que afectó la percepción pública de su gobierno. A pesar de los problemas y fracasos, el gobierno logró avances significativos en la reforma pensional y salvó la reforma laboral. El camino por recorrer incluye superar estos desafíos y continuar con sus promesas legislativas.
+                        </p>
+                        <a href="https://elpais.com/america-colombia/2024-06-21/una-victoria-historica-y-dos-derrotas-marcan-el-segundo-ano-de-petro-en-el-congreso.html" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            <section class="comentario">
+                <h4 class="title-coment">
+                    Ambas noticias presentan el segundo año del mandato de Gustavo Petro en Colombia, pero lo hacen desde perspectivas que reflejan diferentes enfoques y sesgos. A continuación, voy a desglosar y contrastar los elementos clave de cada una
+                </h4>
+                <details>
+                    <summary>Ver comparación</summary>
+                    <p class="content-comment">
+                        "2 años de Petro en el poder: muchas promesas de cambio, pocos resultados tangibles"
+                        <br><br>
+                        Sesgo: Este artículo es más crítico, enfocándose en la falta de resultados tangibles y la percepción negativa del gobierno. Menciona avances, pero los minimiza al presentarlos como parciales o insuficientes. El tono general destaca los escándalos de corrupción, la baja aprobación (34.6%) y la decepción ciudadana.
+                        <br><br>
+                        "Una victoria histórica y dos derrotas marcan el segundo año de Petro en el Congreso"
+                        <br><br>
+                        Sesgo: Más optimista, resalta la aprobación de la reforma pensional como un gran logro y presenta la reforma laboral en términos positivos. Aunque reconoce los fracasos en salud y educación, los trata como obstáculos a superar, destacando más los avances que las derrotas.
+                        <br><br>
+                        Comparación
+                        <br><br>
+                        El primer artículo se enfoca en los problemas y promesas incumplidas, mientras que el segundo equilibra logros y fracasos, pero con un tono más positivo. Ambos muestran sesgos: uno crítico y pesimista, el otro más esperanzador. La combinación de ambas perspectivas es clave para una visión más completa.
+                    </p>
+                </details>
+            </section>
+            
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://rtvc-informativo.s3.amazonaws.com/assets/public/styles/interna_articulo_desktop/public/2024-09/WhatsApp%20Image%202024-09-08%20at%2010.09.12%20AM.jpeg?h=48ce8802&itok=80Hw4m5P" alt="Imagen de noticia 1">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            Petro calificó como un acto delictivo la compra del software Pegasus y no un “hecho comunicacional”
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            El presidente Gustavo Petro ha calificado la presunta compra del software espía Pegasus en 2021 como un acto delictivo y no solo un "hecho comunicacional". Petro ha enfatizado que este evento se debe considerar un delito serio debido a su contexto durante el estallido social en Colombia, donde se registraron graves violaciones de derechos humanos, incluyendo desapariciones de jóvenes líderes de barrios.
+                            <br><br>
+                            La Fiscalía General de la Nación ha abierto una investigación para determinar la legalidad de la adquisición y uso del software Pegasus por parte de la Dirección de Inteligencia Policial de la Policía Nacional (DIPOL). Esta investigación busca establecer si el software fue usado para interceptaciones ilegales y qué conexiones podría tener con recientes denuncias sobre seguimientos no autorizados a magistrados y empleados de altas cortes.
+                            <br><br>
+                            A pesar de la gravedad de la denuncia, algunos críticos consideran que el enfoque del presidente sobre el caso es una estrategia de comunicación ineficaz. Sin embargo, Petro ha defendido la importancia de tratar este asunto como una grave violación de la ley, que implica actividades ilegales realizadas por funcionarios públicos en un período de agitación social.
+                        </p>
+                        <a href="https://www.rtvcnoticias.com/petro-califico-como-acto-delictivo-compra-de-pegasus" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://www.semana.com/resizer/v2/4S4KKQQSANGQNB6IDVVPXIMNYQ.jpg?auth=5017e6aa1649d4c31a49bde3c9d0fae655bc2c4491cd33efd86d2193ae41f3f5&smart=true&quality=75&width=1280&height=720" alt="Imagen de noticia 2">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            En el Gobierno Duque no se compró ningún software Pegasus. La denuncia de Petro no tiene fundamento”: Víctor Muñoz, exdirector del Dapre
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            El presidente Gustavo Petro denunció que la Dipol de la Policía, durante el gobierno de Iván Duque en 2021, adquirió el software Pegasus para espionaje. Petro afirma que el pago se realizó en efectivo y se movieron 11 millones de dólares desde Bogotá a Tel Aviv. Sin embargo, Víctor Muñoz, representante del gobierno de Duque, desmiente esta acusación, alegando que no hay evidencia de dicha compra y que todos los contratos deben estar registrados en el Secop y auditados.
+                            <br><br>
+                            Muñoz aclara que en Colombia es imposible realizar pagos en efectivo para contratos gubernamentales, ya que todas las transacciones deben pasar por mecanismos oficiales y auditorías. Según él, la denuncia de Petro parece ser una distracción de otras controversias, como las relacionadas con la campaña presidencial de Petro y el paro camionero.
+                            <br><br>
+                            Además, Muñoz critica la falta de pruebas y la inconsistencia en la narrativa de Petro. Señala que los procedimientos de la Dipol y la Policía están sujetos a controles y auditorías estrictas, y que no se ha encontrado ningún soporte que confirme las afirmaciones del presidente. También cuestiona la validez del informe clasificado que Petro divulgó, subrayando que la divulgación de información clasificada debe seguir un marco normativo específico.
+                        </p>
+                        <a href="https://www.semana.com/politica/articulo/en-el-gobierno-duque-no-se-compro-ningun-software-pegasus-la-denuncia-de-petro-no-tiene-fundamento-victor-munoz-exdirector-del-dapre/202426/" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            <section class="comentario">
+                <h4 class="title-coment">
+                    Análisis Comparativo: Denuncia de Petro sobre Pegasus vs. Desmentido del Gobierno Duque
+                </h4>
+                <details>
+                    <summary>Ver comparación</summary>
+                    <p class="content-comment">
+                        "Petro calificó como un acto delictivo la compra del software Pegasus"
+                        <br><br>
+                        Sesgo: Esta noticia apoya la denuncia de Petro, presentando la compra de Pegasus como un delito grave vinculado a violaciones de derechos humanos durante el estallido social en Colombia. Aunque menciona algunas críticas a la estrategia de comunicación de Petro, el enfoque principal es validar su postura al destacar la investigación de la Fiscalía y el contexto de represión social.
+                        <br><br>
+                        "En el Gobierno Duque no se compró ningún software Pegasus. La denuncia de Petro no tiene fundamento”: Víctor Muñoz"
+                        <br><br>
+                        Sesgo: Este artículo desmiente las acusaciones de Petro, con Víctor Muñoz defendiendo que no hay pruebas de la compra y alegando que los contratos gubernamentales tienen controles estrictos. La noticia sugiere que Petro usa esta denuncia como distracción de otras controversias y presenta su narrativa como inconsistente y sin fundamento.
+                        <br><br>
+                        Comparación: La primera noticia favorece la postura de Petro, enfocándose en la gravedad del caso y los derechos humanos, mientras que la segunda desmiente la denuncia, destacando la falta de pruebas y controles administrativos. Ambos artículos tienen sesgos claros, uno apoyando la denuncia y el otro desacreditándola por completo, polarizando al lector.
+                    </p>
+                </details>
+            </section>
+            
+
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://www.elespectador.com/resizer/v2/OZTIGAZZIVDUDFUVT6KM6HXZ34.jpg?auth=75480d0c180fc0fda1b59e269a9267967e81c3902735177c7e248bb1badf684b&width=920&height=613&smart=true&quality=60" alt="Imagen de noticia 1">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            Gustavo Petro insiste en “golpe de estado” por investigación del CNE
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            Gustavo Petro ha cuestionado la investigación del Consejo Nacional Electoral (CNE) sobre si violó los topes de financiación en su campaña presidencial de 2022. Critica la decisión del Consejo de Estado que permite al CNE llevar a cabo esta investigación y argumenta que el CNE no tiene autoridad para investigarlo, considerándolo una entidad puramente administrativa y política cuyo período de competencia habría vencido en julio de 2022.
+                            <br><br>
+                            Petro ha descrito la investigación como un "golpe de estado" contra su presidencia, sugiriendo que cada acción en su contra por parte del CNE contribuye a este golpe. En un tono desafiante, ha hecho un llamado a sus seguidores para salir a las calles en defensa de su mandato, mientras asegura que la investigación es una maniobra para despojarlo de su protección constitucional.
+                            <br><br>
+                            A pesar de las objeciones de Petro, el CNE sigue adelante con su investigación. Los magistrados tienen en su poder una ponencia que revela una discrepancia de $5.400 millones en la financiación de la campaña de Petro, lo que ha intensificado la controversia en torno al caso.
+                        </p>
+                        <a href="https://www.elespectador.com/politica/gustavo-petro-insiste-en-golpe-de-estado-por-investigacion-del-cne-a-su-campana-noticias-politicas/" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="img-container">
+                    <img src="https://imagenes.eltiempo.com/files/image_1200_600/uploads/2023/10/05/651efcc05b60f.png" alt="Imagen de noticia 2">
+                </div>
+                <div class="titulo-container">
+                    <div class="titulo">
+                        <p id="title">
+                            Presidente del Consejo de Estado: “Es insólito hablar de golpe de Estado”
+                        </p>
+                    </div>
+                    <details id="tag-details">
+                        <summary>ver noticia</summary>
+                        <p id="details-notice" class="details-notice">
+                            El magistrado Milton Cháves respondió a las críticas del presidente Gustavo Petro, quien cuestionó la decisión del Consejo de Estado de otorgar al Consejo Nacional Electoral (CNE) la competencia para investigar su campaña presidencial. Petro ha afirmado que esta medida es parte de un "golpe de Estado a la colombiana" y acusa a los magistrados Benjamín Ortiz y Álvaro Hernán Prada de tener intenciones políticas al formular cargos en su contra, sugiriendo que buscan destituirlo sin base legal y en contra del voto popular.
+                            <br><br>
+                            Cháves, en declaraciones a Blu Radio, aclaró que la decisión del Consejo de Estado simplemente define el proceso jurídico correspondiente. Explicó que el CNE tiene la capacidad de investigar y sancionar administrativamente la campaña de Petro, pero no puede decretar la pérdida de su cargo, ya que esa responsabilidad recaería en el Congreso de la República. Para Cháves, la reacción de Petro ha sido "sorpresiva", ya que el fallo solo establece los roles de las entidades involucradas.
+                            <br><br>
+                            A pesar de esta aclaración, Petro continúa insistiendo en la idea de un "golpe blando" en su contra, alegando que se ha organizado un esfuerzo para destituirlo. Además, denunció el crecimiento del "fascismo" en Colombia y atacó a la prensa durante un discurso desde Chocó, que fue retransmitido el domingo como una alocución pública. Esta narrativa de persecución política ha sido recurrente en sus recientes declaraciones.
+                        </p>
+                        <a href="https://www.lasillavacia.com/en-vivo/presidente-del-consejo-de-estado-es-insolito-hablar-de-golpe-de-estado/" target="_blank" rel="noopener noreferrer" id="link-news">Leer más</a>
+                    </details>
+                </div>
+            </div>
+            
+            <section class="comentario">
+                <h4 class="title-coment">
+                    Análisis Comparativo: Petro denuncia 'golpe de Estado' vs. Respuesta del Consejo de Estado
+                </h4>
+                <details>
+                    <summary>Ver comparación</summary>
+                    <p class="content-comment">
+                        "Gustavo Petro insiste en ‘golpe de estado’ por investigación del CNE"
+                        <br><br>
+                        Sesgo: Esta noticia presenta la denuncia de Petro, quien describe la investigación del CNE sobre los topes de financiación de su campaña como un “golpe de estado” en su contra. El enfoque está en la postura de Petro, destacando sus acusaciones de que la investigación es una maniobra política para destituirlo y quitarle su protección constitucional. La noticia resalta el tono desafiante de Petro y su llamado a sus seguidores, aunque también menciona las discrepancias financieras que el CNE investiga.
+                        <br><br>
+                        Perspectiva: Petro se posiciona como víctima de una persecución política, sugiriendo que el CNE está actuando fuera de su competencia. La noticia presenta la situación desde su punto de vista, subrayando la gravedad de sus acusaciones.
+                        <br><br>
+                        "Presidente del Consejo de Estado: ‘Es insólito hablar de golpe de Estado’"
+                        <br><br>
+                        Sesgo: Esta noticia ofrece la perspectiva del magistrado Milton Cháves, quien refuta las acusaciones de Petro y las considera exageradas. Cháves aclara que el fallo del Consejo de Estado simplemente establece los roles legales del CNE y otras entidades, y que el CNE solo puede sancionar administrativamente, no destituir a Petro. El artículo también destaca que la reacción de Petro ha sido "sorpresiva", y presenta la denuncia de golpe de estado como injustificada.
+                        <br><br>
+                        Perspectiva: Se adopta un enfoque técnico y legal, explicando los límites del CNE y defendiendo la legalidad del proceso. El tono es más neutral y desestima la narrativa de persecución política de Petro, sugiriendo que la reacción del presidente es desproporcionada.
+                        <br><br>
+                        Comparación: La primera noticia favorece la narrativa de Petro, enfocándose en sus denuncias de un golpe de estado y destacando su visión de que la investigación es parte de una maniobra política. En contraste, la segunda noticia presenta la posición del Consejo de Estado, que considera la denuncia de Petro infundada y exagerada, y aclara los límites legales del CNE. Mientras la primera noticia amplifica las preocupaciones de Petro sobre un ataque político, la segunda minimiza estas acusaciones y las sitúa dentro de un marco jurídico racional, ofreciendo una perspectiva más institucional. Ambas noticias muestran sesgos: una hacia la victimización política de Petro y la otra hacia la defensa del proceso legal.
+                    </p>
+                </details>
+            </section>
+            
+
+        </section>
+
+    </main>
+    <footer>
+        <span>Gracias  por leernos</span>
+        <div>
+            <span>Realizado por:</span>
+        </div>
+        <span>Juan José Sierra Ortega</span>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal().reveal('.card', {
+          distance: '100px',
+          origin: 'left',
+          duration: 1000,
+          opacity: 0,
+          easing: 'ease-in-out',
+          interval: 200
+        });
+
+        ScrollReveal().reveal('.comentario', {
+         distance: '100px',
+        origin: 'right',
+        duration: 1000,
+        opacity: 0,
+        easing: 'ease-in-out',
+        interval: 200
+        });
+      </script>
+      
+
+</body>
+</html>

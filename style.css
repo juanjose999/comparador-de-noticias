@@ -1,0 +1,256 @@
+
+:root{
+    --bg-font: #007bff;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100%;
+}
+@keyframes gradiente {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgb(7, 5, 43), #083463);
+  background-size: 200% 200%;
+  animation: gradiente 10s ease infinite;
+    overflow-x: hidden;
+}
+main {
+    width: 100%;
+    height: auto;
+}
+
+section.saludo {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 2.2em;
+    display: flex;
+    text-align: center;
+}
+.saludo p {
+    margin-top: -1em;
+    font-weight: 200;
+    font-size: 1.2em;
+}
+
+.carrusel-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 88%;
+    margin-top: 2em;
+    background-color: var(--bg-font);
+    color: wheat;
+    border-radius: 0.8em;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    & .titulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0em 1em 0em 1em;
+    }
+}
+
+.card details {
+    padding: 1em;
+}
+.card img{
+    width: 200%;
+    height: 18em;
+}
+
+.card .titulo-container .parrafo-titulo{
+    font-weight: 700;
+    font-size: 1.2em;
+    padding-left: 0.8em;
+}
+/* Estilos para la etiqueta <details> */
+details {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la etiqueta <summary> */
+summary {
+    cursor: pointer; /* Cambia el cursor para indicar que se puede hacer clic */
+    font-weight: bold;
+    color: #007BFF; /* Cambia el color del texto */
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilos para cuando <details> está abierto */
+details[open] {
+    border-color: #007BFF;
+    background-color: #e9f4ff;
+}
+
+/* Estilos para el contenido dentro de <details> */
+details p {
+    margin: 10px 0;
+    color: #333;
+    line-height: 1.5;
+}
+
+.news-link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.news-link-button:hover {
+    background-color: #0056b3;
+}
+
+.comentario{
+    background-color: #007bff;
+    color: wheat;
+    margin-top: 2.3em;
+    padding: 0em 1em 1em 1em;
+    & h4 {
+        font-weight: 600;
+        font-size: 1.6em;
+    }
+}
+
+footer{
+    background: #007bff;
+    width: 100%;
+    height: 2em;
+    color: black;
+}
+hr{
+    width: 100%;
+    height: 0px;
+    color: rgb(80, 77, 77);
+    margin-top: 2em;
+}
+
+@media (width>=600px) and (width <= 920px) {
+    .carrusel-container{
+        width: 100%;
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 330px 330px;
+        grid-template-rows: 1fr 200pxfr;
+        flex-direction: row;
+        gap: 2em 1em;
+        & .comentario{
+            width: 100%;
+            grid-column: 1/3;
+            padding: 2em;
+            border-radius: 1em;
+            padding: 0;
+            margin-top: 0;
+        }& img {
+            width: 100%;
+            height: 20em;
+        } & .card{
+            width: 100%;
+            height: 100%;
+            margin-top: 0;
+        }
+    }h4{
+        padding-left: 1.3em;
+        padding-right: 1.3em;
+        text-align: center;
+    }
+}
+
+@media (width>=900px) and (width <= 1920px) {
+    .carrusel-container{
+        width: 100%;
+        height: 100%;
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 430px 430px 430px;
+        flex-direction: row;
+        gap: 4em 1.3em;
+        & .comentario{
+            width: 100%;
+            height: 100%;
+            grid-column: 3/4;
+            border-radius: 1em;
+            padding: 0;
+            margin-top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }& img {
+            width: 100%;
+            height: 20em;
+        } & .card{
+            width: 100%;
+            height: 100%;
+            margin-top: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        } 
+    }h4{
+        padding-left: 1.3em;
+        padding-right: 1.3em;
+        text-align: center;
+    }
+}
+
+footer{
+    margin-top: 2em;
+    width: 100%;
+    height: 6em;
+    background: var(--bg-font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    font-weight: 800;
+    color: #ddd;
+}
+h1{
+    text-align: center;
+}
+.saludo .intro p{
+    text-align: center;
+}

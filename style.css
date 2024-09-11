@@ -164,7 +164,7 @@ hr{
     margin-top: 2em;
 }
 
-@media (width>=600px) and (width <= 920px) {
+@media (width>=600px) and (width <= 820px) {
     .carrusel-container{
         width: 100%;
         display:grid;
@@ -196,7 +196,7 @@ hr{
     }
 }
 
-@media (width>=900px) and (width <= 1920px) {
+@media (width>=820px) and (width <= 1920px) {
     .carrusel-container{
         width: 100%;
         height: 100%;
